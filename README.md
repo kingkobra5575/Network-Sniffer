@@ -42,8 +42,8 @@ python sniffer.py -i lo -f udp -p 53 -c 20 -t 30
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/enhanced-sniffer.git
-cd enhanced-sniffer
+git clone https://github.com/kingkobra5575/Network-Sniffer.git
+cd Network-Sniffer
 ```
 
 ### 2. Create a virtual environment (optional)
