@@ -18,7 +18,7 @@ A Python-based command-line network sniffer built with Scapy. This tool captures
 ## 🚀 How to Run
 
 ```bash
-python sniffer.py [OPTIONS]
+python3 sniffer.py [OPTIONS]
 ````
 
 ### Options:
@@ -34,7 +34,7 @@ python sniffer.py [OPTIONS]
 ### Example:
 
 ```bash
-python sniffer.py -i lo -f udp -p 53 -c 20 -t 30
+python3 sniffer.py -i lo -f udp -p 53 -c 20 -t 30
 ```
 
 ## 🛠 Installation
@@ -46,11 +46,11 @@ git clone https://github.com/kingkobra5575/Network-Sniffer.git
 cd Network-Sniffer
 ```
 
-### 2. Create a virtual environment (optional)
+### 2. Create a virtual environment (recommended)
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 ### 3. Install dependencies
@@ -61,6 +61,10 @@ pip install -r requirements.txt
 
 ## ⚠️ Notes
 
-* Run as root or with administrator privileges for packet capture.
-* Ensure the specified interface exists and is active.
-* Works best on Unix-based systems. On Windows, admin privileges and certain filter features may vary.
+* Run the script with **administrator/root privileges** to capture packets:
+
+  ```bash
+  sudo python3 sniffer.py ...
+  ```
+* Make sure the specified interface exists and is active.
+* Best used on **Linux/macOS**. On Windows, Scapy may require extra configuration and admin access.
