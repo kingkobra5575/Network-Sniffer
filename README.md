@@ -67,4 +67,5 @@ pip install -r requirements.txt
   sudo python3 sniffer.py ...
   ```
 * Make sure the specified interface exists and is active.
+* Scapy is required to run the code.
 * Best used on **Linux/macOS**. On Windows, Scapy may require extra configuration and admin access.
