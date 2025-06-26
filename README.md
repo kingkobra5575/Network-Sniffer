@@ -46,7 +46,7 @@ git clone https://github.com/kingkobra5575/Network-Sniffer.git
 cd Network-Sniffer
 ```
 
-### 2. Create a virtual environment (recommended)
+### 2. Create a virtual environment (Optional)
 
 ```bash
 python3 -m venv venv
