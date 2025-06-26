@@ -1,5 +1,3 @@
-Network Sniffer using Scapy
-
 A Python-based command-line network sniffer built with Scapy. This tool captures and displays detailed information about IP, TCP, and UDP packets on a selected network interface.
 
 ## ✨ Features
